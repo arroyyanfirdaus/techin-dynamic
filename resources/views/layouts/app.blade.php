@@ -51,7 +51,7 @@
         }
 
         .navbar-brand img {
-            margin-right: 10px;
+            margin-right: 20px;
         }
 
         .navbar-brand div {
@@ -65,7 +65,7 @@
 
         /* Hero Section */
         .hero-section {
-            padding: 30px 0;
+            padding: -20px 0;
 
         }
 
@@ -263,6 +263,194 @@
             text-decoration: none;
             font-weight: 600;
             display: inline-block;
+        }
+
+        /* .main-title */
+        .main-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #2aec82;
+            /* Adjust color as needed */
+            margin-bottom: 20px;
+        }
+
+        .scrolling-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            padding: 20px 0;
+            /* Adds spacing at the top and bottom of the container */
+        }
+
+        .scrolling-wrapper {
+            display: flex;
+            white-space: nowrap;
+            /* margin-bottom: 10px; */
+            /* Adds space between the top and bottom row */
+        }
+
+        /* Animation for top row - moves to the left */
+        .top-row {
+            animation: scroll-left 10s linear infinite;
+        }
+
+        /* Animation for bottom row - moves to the right */
+        .bottom-row {
+            animation: scroll-right 10s linear infinite;
+            /* margin-top: 10px; */
+            /* Alternatively, add space above the bottom row */
+        }
+
+        /* Scroll Left Animation */
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Scroll Right Animation */
+        @keyframes scroll-right {
+            0% {
+                transform: translateX(-50%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .tech-card {
+            flex: 0 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            /* Center-align the content */
+            width: 220px;
+            height: 120px;
+            margin: 0 10px;
+            transition: transform 0.2s ease-in-out, border 0.2s ease-in-out;
+            border: 2px solid transparent;
+            /* Default border is transparent */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* Center content vertically */
+            align-items: center;
+            /* Center content horizontally */
+            cursor: pointer;
+            /* Change cursor to pointer on hover */
+        }
+
+        .scrolling-wrapper img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .scrolling-wrapper h5 {
+            font-size: 16px;
+            margin: 0;
+            /* No extra margin at the top */
+            color: #333;
+            /* Darker color for better contrast */
+            font-weight: 600;
+            /* Bold font for the title */
+        }
+
+        .scrolling-wrapper p {
+            font-size: 14px;
+            color: #777;
+            margin-top: 5px;
+            margin-bottom: 0;
+            /* No extra margin at the bottom */
+        }
+
+        .tech-card:hover {
+            animation-play-state: paused;
+            /* Pause animation on hover */
+        }
+
+        /* Ensures the animation continues running when not hovered */
+        .top-row:hover,
+        .bottom-row:hover {
+            animation-play-state: paused;
+        }
+
+        /* Stop animation and add blue border when hovered */
+        .tech-card:hover {
+            animation-play-state: paused;
+            /* Pause animation on hover */
+            border: 2px solid #007BFF;
+            /* Blue border on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* Slightly enhance the shadow for better focus */
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            /* Light gray background */
+            padding: 40px 0;
+            color: #333;
+            /* Dark text color */
+            text-align: left;
+            /* Align text to the left */
+        }
+
+        .footer h4 {
+            margin-bottom: 20px;
+            color: #007BFF;
+            /* Blue heading color */
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+            color: #555;
+            /* Slightly lighter text for paragraph */
+        }
+
+        .footer .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer .footer-links ul li a {
+            color: #007BFF;
+            /* Blue link color */
+            text-decoration: none;
+        }
+
+        .footer .footer-links ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .footer-contact p {
+            margin-bottom: 10px;
+        }
+
+        .footer .footer-contact i {
+            margin-right: 10px;
+            color: #007BFF;
+            /* Blue icon color */
+        }
+
+        .footer .footer-about p {
+            max-width: 300px;
+            color: #555;
         }
     </style>
 </head>

@@ -72,4 +72,133 @@
             </div>
         </div>
     </div>
-@endsection
+
+    <!-- Main Section Title -->
+    <div class="container text-center mt-5">
+        <h2 class="main-title">Jasa Programmer. Terpecaya dan Lengkap.</h2>
+        <p class="subtitle">Mastering Freelancer Tools</p>
+    </div>
+
+    <!-- Cards Grid Section -->
+    <div class="scrolling-container">
+        <div class="scrolling-wrapper top-row">
+            <div class="tech-card">
+                <img src="{{ asset('images/laravel.png') }}" alt="Laravel">
+                <h5>Laravel</h5>
+                <p>Back-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/vue.png') }}" alt="Vue">
+                <h5>Vue</h5>
+                <p>Front-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/laravel.png') }}" alt="Laravel">
+                <h5>Laravel</h5>
+                <p>Back-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/vue.png') }}" alt="Vue">
+                <h5>Vue</h5>
+                <p>Front-End Development</p>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Duplicate the cards for seamless scrolling -->
+            <div class="tech-card">
+                <img src="{{ asset('images/laravel.png') }}" alt="Laravel">
+                <h5>Laravel</h5>
+                <p>Back-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/vue.png') }}" alt="Vue">
+                <h5>Vue</h5>
+                <p>Front-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/laravel.png') }}" alt="Laravel">
+                <h5>Laravel</h5>
+                <p>Back-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/vue.png') }}" alt="Vue">
+                <h5>Vue</h5>
+                <p>Front-End Development</p>
+            </div>
+            <!-- Add more duplicates as needed -->
+        </div>
+
+        <div class="scrolling-container">
+            <div class="scrolling-wrapper bottom-row">
+                <div class="tech-card">
+                    <img src="{{ asset('images/python.png') }}" alt="Python">
+                    <h5>Python</h5>
+                    <p>Data Science</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/figma.png') }}" alt="Figma">
+                    <h5>Figma</h5>
+                    <p>UI/UX Design</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/python.png') }}" alt="Python">
+                    <h5>Python</h5>
+                    <p>Data Science</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/figma.png') }}" alt="Figma">
+                    <h5>Figma</h5>
+                    <p>UI/UX Design</p>
+                </div>
+                <!-- Add more cards as needed -->
+                <!-- Duplicate the cards for seamless scrolling -->
+                <div class="tech-card">
+                    <img src="{{ asset('images/python.png') }}" alt="Python">
+                    <h5>Python</h5>
+                    <p>Data Science</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/figma.png') }}" alt="Figma">
+                    <h5>Figma</h5>
+                    <p>UI/UX Design</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/python.png') }}" alt="Python">
+                    <h5>Python</h5>
+                    <p>Data Science</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/figma.png') }}" alt="Figma">
+                    <h5>Figma</h5>
+                    <p>UI/UX Design</p>
+                </div>
+                <!-- Add more duplicates as needed -->
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-about">
+                        <h4>About Us</h4>
+                        <p>We provide top-notch programming services to help you build the software of your dreams.</p>
+                    </div>
+                    <div class="col-md-4 footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>Gatot Subroto</p>
+                        <p><i class="fas fa-phone"></i>0895415461540</p>
+                        <p><i class="fas fa-envelope"></i> techindynamic@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    @endsection
