@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container-fluid ms-3 d-flex justify-content-between align-items-center">
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="{{ asset('images/logo.png') }}" alt="Logo" width="50" height="50">
             <div class="ml-2">
@@ -7,12 +7,18 @@
                 <div>DYNAMIC</div>
             </div>
         </a>
+
+        <!-- Toggler button for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="navbar-nav flex-row">
             <a class="nav-item nav-link" href="#">Menu</a>
-            <a class="nav-item nav-link" href="#">Gallery</a>
-            <a class="nav-item nav-link" href="#">Project</a>
-            <a class="nav-item nav-link" href="#">Menu</a>
-            <a class="nav-item nav-link" href="#">Menu</a>
+            <a class="nav-item nav-link" href="#start-build">Gallery</a>
+            <a class="nav-item nav-link" href="#project">Project</a>
+            <a class="nav-item nav-link" href="#price">Price</a>
+            <a class="nav-item nav-link" href="#tools">Tools</a>
         </div>
         <div class="navbar-icons d-flex align-items-center">
             <form class="form-inline mr-3">

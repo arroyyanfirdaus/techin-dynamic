@@ -400,11 +400,9 @@
         .footer {
             background-color: #f8f9fa;
             /* Light gray background */
-            padding: 40px 0;
+            padding: 80px 0;
             color: #333;
             /* Dark text color */
-            text-align: left;
-            /* Align text to the left */
         }
 
         .footer h4 {
@@ -452,6 +450,34 @@
             max-width: 300px;
             color: #555;
         }
+
+
+        .card {
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 0.9rem;
+
+        }
+
+        .badge {
+            font-size: 0.8rem;
+        }
+
+        .text-center.mb-5 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -459,7 +485,7 @@
 <body>
     @include('layouts.navbar') <!-- Navbar Include -->
 
-    <div class="container">
+    <div class="container-fluid">
         @yield('content')
     </div>
 

@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid additional-section">
+    <div id="start-build" class="container-fluid additional-section">
         <div class="container">
             <h2 class="section-heading">Start Build With Tech In Dynamic</h2>
             <p class="section-description">Development, and Implementation</p>
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    <div class="container-fluid additional-section">
+    <div id="project" class="container-fluid additional-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -73,8 +73,67 @@
         </div>
     </div>
 
+    <div id="price" class="container my-5">
+        <h2 class="text-center mb-5">Project Unggulan Dari TechInDynamic</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="{{ asset('images/images1.png') }}" class="card-img-top" alt="Upwork Freelancer Mastery">
+                    <div class="card-body">
+                        <h5 class="card-title">Website Pemesanan Bus</h5>
+                        <p class="card-text"><span class="text-muted"><del>Rp 2,650,000</del></span> Rp 1,250,000</p>
+                        <p class="card-text">
+                            <span class="badge bg-warning text-dark">★ 4.8 (461)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="{{ asset('images/images2.png') }}" class="card-img-top" alt="Full-Stack Next JS">
+                    <div class="card-body">
+                        <h5 class="card-title">WebSite PPDB</h5>
+                        <p class="card-text">Rp 1,550,000</p>
+                        <p class="card-text">
+                            <span class="badge bg-warning text-dark">★ 4.9 (606)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="{{ asset('images/images1.png') }}" class="card-img-top" alt="Upwork Freelancer Mastery">
+                    <div class="card-body">
+                        <h5 class="card-title">Website Pemesanan Bus</h5>
+                        <p class="card-text"><span class="text-muted"><del>Rp 2,650,000</del></span> Rp 1,250,000</p>
+                        <p class="card-text">
+                            <span class="badge bg-warning text-dark">★ 4.8 (461)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="{{ asset('images/images2.png') }}" class="card-img-top" alt="Full-Stack Next JS">
+                    <div class="card-body">
+                        <h5 class="card-title">WebSite PPDB</h5>
+                        <p class="card-text">Rp 1,550,000</p>
+                        <p class="card-text">
+                            <span class="badge bg-warning text-dark">★ 4.9 (606)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Main Section Title -->
-    <div class="container text-center mt-5">
+    <div id="tools" class="container text-center mt-5">
         <h2 class="main-title">Jasa Programmer. Terpecaya dan Lengkap.</h2>
         <p class="subtitle">Mastering Freelancer Tools</p>
     </div>
@@ -91,6 +150,11 @@
                 <img src="{{ asset('images/vue.png') }}" alt="Vue">
                 <h5>Vue</h5>
                 <p>Front-End Development</p>
+            </div>
+            <div class="tech-card">
+                <img src="{{ asset('images/laravel.png') }}" alt="Laravel">
+                <h5>Laravel</h5>
+                <p>Back-End Development</p>
             </div>
             <div class="tech-card">
                 <img src="{{ asset('images/laravel.png') }}" alt="Laravel">
@@ -138,6 +202,11 @@
                     <img src="{{ asset('images/figma.png') }}" alt="Figma">
                     <h5>Figma</h5>
                     <p>UI/UX Design</p>
+                </div>
+                <div class="tech-card">
+                    <img src="{{ asset('images/python.png') }}" alt="Python">
+                    <h5>Python</h5>
+                    <p>Data Science</p>
                 </div>
                 <div class="tech-card">
                     <img src="{{ asset('images/python.png') }}" alt="Python">
